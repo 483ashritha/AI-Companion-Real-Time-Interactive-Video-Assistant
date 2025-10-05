@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Home(){ return (<div className='container'><header className='rounded-lg p-8 mb-6' style={{background: 'linear-gradient(90deg,#6c63ff, #9f7aea)', color: 'white'}}><h1 className='text-4xl font-bold'>AI Companion — Video Call & Streaming</h1><p className='mt-2 opacity-90'>Final enhanced submission with WebRTC, Socket.IO, recording, and captions.</p></header><p><Link href='/companions'><a className='btn'>Browse Companions</a></Link></p></div>); }

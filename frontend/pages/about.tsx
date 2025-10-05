@@ -1,0 +1,1 @@
+export default function About(){ return (<div className='container'><h2 className='text-2xl font-semibold text-indigo-600'>About</h2><p className='mt-2 text-gray-600'>This project demonstrates WebRTC peer-to-peer video with Socket.IO signaling, recording uploads with Redis metadata, JWT stub auth, and Tailwind styling.</p></div>); }

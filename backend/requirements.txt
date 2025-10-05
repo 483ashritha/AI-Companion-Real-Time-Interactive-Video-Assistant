@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+python-socketio[asyncio_server]
+redis>=4.5.0
+aiofiles
+pydantic
+python-jose[cryptography]
+pytest
+httpx[http2]
