@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from app.main import app_asgi
+from backend.main import app_asgi
 client = TestClient(app_asgi)
 
 def test_login_success():
