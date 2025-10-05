@@ -1,8 +1,4 @@
 from fastapi.testclient import TestClient
-from backend.apps.services.main import app_asgi
-
-
-client = TestClient(app_asgi)
 
 def test_login_success():
     r = client.post('/api/auth/login', json={'username':'demo','password':'demo'})
