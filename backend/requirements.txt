@@ -9,3 +9,5 @@ pydantic
 python-jose[cryptography]
 pytest
 httpx[http2]
+python-multipart
+
